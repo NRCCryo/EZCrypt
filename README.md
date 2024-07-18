@@ -33,6 +33,7 @@ ________________________________________________________________________
    git clone https://github.com/NRCCryo/EZCrypt.git
    cd EZCrypt
 Install the required packages:
+
 Make sure you have pip installed, then run:
 
 bash
@@ -45,19 +46,32 @@ Copy code
 python Crypt-Alone.py
 Usage
 Standard Encryption
+
 Encrypt File: Encrypt a file using a password.
+
 Decrypt File: Decrypt a file using a password.
+
 Encrypt Folder: Encrypt an entire folder using a password.
+
 Decrypt Folder: Decrypt an encrypted folder using a password.
+
 File-Based Encryption
+
 Encrypt File: Encrypt a file using a password and a seed file.
+
 Decrypt File: Decrypt a file using a password and a seed file.
 Asymmetric Encryption
+
 Encrypt File: Encrypt a file using a public key.
+
 Decrypt File: Decrypt a file using a private key.
+
 Key Management
+
 Generate RSA Key Pair: Generate a new RSA key pair (public and private keys) and save them to files.
+
 Load Public Key: Load an existing public key from a file.
+
 Load Private Key: Load an existing private key from a file.
 
 Contributing
